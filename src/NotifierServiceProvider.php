@@ -1,10 +1,10 @@
 <?php
 
-namespace Betalectic\Permiso;
+namespace Betalectic\Notifer;
 
 use Illuminate\Support\ServiceProvider;
 
-class PermisoServiceProvider extends ServiceProvider
+class NotifierServiceProvider extends ServiceProvider
 {
     /**
      * Bootstrap the application services.
@@ -12,7 +12,6 @@ class PermisoServiceProvider extends ServiceProvider
     public function boot()
     {
         $this->loadMigrationsFrom(__DIR__.'/../database/migrations');
-        $this->loadRoutesFrom(__DIR__.'/../routes.php');
     }
 
     /**
@@ -20,8 +19,6 @@ class PermisoServiceProvider extends ServiceProvider
      */
     public function register()
     {
-        $this->app->singleton(RegistrableObserver::class, function($app) {
-            return new RegistrableObserver(new Permiso);
-        });
+
     }
 }

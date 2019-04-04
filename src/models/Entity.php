@@ -1,4 +1,4 @@
-<?php namespace Betalectic\Permiso\Models;
+<?php namespace Betalectic\Notifier\Models;
 
 use Illuminate\Database\Eloquent\Model;
 

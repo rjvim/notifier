@@ -24,11 +24,6 @@ php artisan vendor:publish --provider="Betalectic\Permiso\PermisoServiceProvider
 
 ## Documentation
 
-* Register all permissions
-* Build Strategy : Register/De-Register all entities
-* Build Stragtegy to Set Parents of Entities
-
-* Create Designation -> Choose permissions
 
 ## License
 
