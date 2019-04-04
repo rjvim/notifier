@@ -1,8 +1,9 @@
 <?php
 
-namespace Betalectic\Notifer;
+namespace Betalectic\Notifier;
 
 use Illuminate\Support\ServiceProvider;
+
 
 class NotifierServiceProvider extends ServiceProvider
 {
@@ -17,8 +18,5 @@ class NotifierServiceProvider extends ServiceProvider
     /**
      * Register the application services.
      */
-    public function register()
-    {
-
-    }
+    
 }
