@@ -1,0 +1,49 @@
+{
+    "name": "rjvim/notifier",
+    "description": "Add permissions behaviour to your Laravel app",
+    "keywords": [
+        "permissions",
+        "authorization"
+    ],
+    "homepage": "https://github.com/rjvim/notifier",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Rajiv Seelam",
+            "email": "rajiv@betalectic.com",
+            "homepage": "https://betalectic.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^7.4",
+        "orchestra/testbench": "~3.7.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Betalectic\\Notifier\\": "src"
+        }
+    },
+
+    "autoload-dev": {
+        "psr-4": {
+            "Betalectic\\Notifier\\Test\\": "tests"
+        }
+    },
+    "scripts": {
+        "test": "vendor/bin/phpunit"
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Betalectic\\Notifier\\PermisoServiceProvider"
+            ]
+        }
+    }
+}
