@@ -44,7 +44,7 @@ Notifier::enableJob($job_identifier, $description);
 
 add Template: addTemplate($job_identifier,$type,$content_data);
 
-the above 3 params are job, job type, and template data like "Hi **user_name** welcome to our site, you are registered with this mobile **user_mobile**".
+the above 3 params are job, job type, and template data like Hi * * user_name* * welcome to our site, you are registered with this mobile * * user_mobile* * .
 
 same like:
 
