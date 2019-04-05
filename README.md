@@ -24,7 +24,7 @@ php artisan vendor:publish --provider="Betalectic\Notifier\NotifierServiceProvid
 
 ## Documentation
 
-First Initialize the Notifier as . $notifier = new notifier()
+First Initialize the Notifier
 
 add Job: addJob($job_identifier, $description)
 params are the job and it's description.
